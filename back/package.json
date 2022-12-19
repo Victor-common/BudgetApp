@@ -1,0 +1,21 @@
+{
+  "name": "Backend Budget app",
+  "version": "1.0.0",
+  "description": "Budget app backend",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rm -fr dist && tsc",
+    "lint": "eslint --fix src",
+    "start": "node --async-stack-traces dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Victor",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^15.12.2",
+    "@typescript-eslint/eslint-plugin": "^5.3.0",
+    "@typescript-eslint/parser": "^5.3.0",
+    "eslint": "^8.2.0",
+    "typescript": "^4.3.2"
+  }
+}
